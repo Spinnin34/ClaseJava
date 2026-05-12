@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.utilideades.Dinero;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Clase_2 {
@@ -40,14 +41,6 @@ public class Clase_2 {
         //Oye cuanto dienro tengo
         System.out.println("Yo tengo " + Dinero.getDinero() + " euros");
 
-        HashMap<String, Integer> precios = new HashMap<>();
-
-        precios.put("Durum", 5);
-        precios.put("Durum mas patatas", 10);
-        precios.put("Menu completo", 15);
-
-
-
-
+        Arrays.asList("Durum", "Durum mas patatas", "Menu completo").forEach(System.out::println);
     }
 }

@@ -1,12 +1,8 @@
 package org.example.utilideades;
 
-import java.util.HashMap;
-
 public class Dinero {
 
     private static int dineroClase;
-
-    HashMap<String, Integer> precios = new HashMap<>();
 
     //Fuerza el valor que yo le ponga al construtor si o si
     public static void setDinero(int CantidadDeDinero) {
